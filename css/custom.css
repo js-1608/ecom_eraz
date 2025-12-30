@@ -6071,3 +6071,23 @@ header.main-header .header-sticky.active{
     color: var(--blue-500);
     flex-shrink: 0;
 }
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.whatsapp-float img {
+  width: 32px;
+  height: 32px;
+}
